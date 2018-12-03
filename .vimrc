@@ -12,7 +12,13 @@ set mouse=a
 set ai
 set si
 set ci
-set shiftwidth=2
+set sw=2
 set ts=2
 set sts=2
 set et
+
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+inoremap ' ''<LEFT>
+inoremap " ""<LEFT>
+inoremap { {<CR><CR>}<UP><TAB>
